@@ -1,0 +1,100 @@
+
+*{
+    font-family:serif;
+    }
+  
+  table{
+    border:2px solid;
+    width:50%;
+    margin-left:12%;
+    height:450px;
+    border-radius:4px;
+    background-color: rgba(231, 52, 97, 0.4);
+    align-items: center;
+    padding: 4px;
+    }
+  h2{
+    font-size:70px;
+    text-align:center;
+    font-weight:bold;
+    font-family: cursive;
+    color: red;
+    }
+  td{
+    width:25%;
+    font-weight: bold;
+    }
+  p{
+    font-size:25px;
+    text-align:right;
+    margin-right:30px;
+    font-weight:bold;
+    }
+
+  #screen{
+    background-color: rgb(255, 255, 255); 
+    color : rgb(0, 0, 0);
+    padding: 3px;
+    height:97%;
+    width: 98.5%;
+    text-align:right;
+    font-size:60px;
+    border:1px solid;
+    border-radius:6px;
+    }
+  #name{
+    height:20px;
+    border:none;
+    }
+  button{
+    width: 98%;
+    height:100%;
+    font-weight:bold;
+    border-radius:6px;
+    border-style:none;
+    font-size:25px;
+    color:white;
+    }
+
+  .buttonColor{
+    background-color: black;
+    color:white;
+    }
+  #on{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    }
+  #egal{
+    background-color:rgb(243, 236, 238);
+    color:black;
+    }
+  .operateur{
+    background-color:rgb(245, 22, 22);
+    }
+
+@media screen and (max-width : 1200px) and (min-width : 700px) {
+    table{
+        border:2px solid;
+        width:65%;
+        margin-left:17.5%;
+        height:480px;
+        border-radius:4px;
+        background-color: rgba(12, 12, 243, 0.4);
+        align-items: center;
+        }
+    
+}
+
+@media screen and (max-width : 2000px) and (min-width : 1200px) {
+    table{
+        border:2px solid;
+        width:50%;
+        margin-left:25%;
+        height:500px;
+        border-radius:4px;
+        background-color: rgba(223, 16, 85, 0.4);
+        align-items: center;
+        }
+    
+}
+  
